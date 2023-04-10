@@ -1,7 +1,7 @@
-import { Employee } from './../../model/employee';
+import { Employee } from '../../model/employee';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ApiService } from './../../service/api.service';
+import { ApiService } from '../../service/api.service';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 @Component({
   selector: 'app-employee-edit',
