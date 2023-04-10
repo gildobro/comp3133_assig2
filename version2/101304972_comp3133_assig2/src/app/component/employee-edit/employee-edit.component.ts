@@ -78,6 +78,7 @@ export class EmployeeEditComponent implements OnInit {
   onSubmit() {
     this.submitted = true;
     if (!this.editForm.valid) {
+      
       return false;
     } else {
       if (window.confirm('Are you sure?')) {
