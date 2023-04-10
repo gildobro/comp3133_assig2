@@ -6,6 +6,7 @@ const bodyParser = require('body-parser')
 const dotenv = require('dotenv');
 dotenv.config();
 // Connecting with mongo db
+
 mongoose
   .connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@fullstackcluster.by4l3g9.mongodb.net/comp3133_assignment1`)
   .then((x) => {
